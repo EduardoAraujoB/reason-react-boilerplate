@@ -10,6 +10,7 @@
 /.merlin
 /.parcel-cache
 /.vscode
+/coverage
 
 # logs
 /yarn-debug.log*
@@ -17,4 +18,5 @@
 
 # production
 /dist
-/src/**/*.js
+/src/**/*.bs.js
+/src/**/*.snap
