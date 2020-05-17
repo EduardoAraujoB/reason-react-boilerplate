@@ -5,7 +5,12 @@
   },
   "sources": {
     "dir": "src",
-    "subdirs": true
+    "subdirs": [
+      {
+        "dir": "__tests__",
+        "type": "dev"
+      }
+    ]
   },
   "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
   "package-specs": [
