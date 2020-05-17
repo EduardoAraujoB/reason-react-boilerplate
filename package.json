@@ -3,7 +3,8 @@
   "scripts": {
     "bsb-watch": "bsb -make-world -w",
     "build": "shx rm -rf dist && bsb -make-world -clean-world && parcel build public/index.html && shx cp public/robots.txt dist",
-    "parcel-watch": "parcel public/index.html"
+    "parcel-watch": "parcel public/index.html",
+    "test": "bsb -make-world && jest"
   },
   "dependencies": {
     "react": "^16.8.1",
@@ -14,6 +15,7 @@
     "@glennsl/bs-jest": "^0.5.1",
     "bs-platform": "^7.3.2",
     "bs-react-testing-library": "^0.7.2",
+    "jest": "^26.0.1",
     "parcel": "^2.0.0-alpha.3.2",
     "shx": "^0.3.2"
   }
